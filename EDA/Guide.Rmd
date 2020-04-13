@@ -1,0 +1,23 @@
+---
+title: "Análise Exploratória de Dados"
+date: "2020-04-13"
+output: html_document
+bibliography: '../Bibliografia/referencias.bib'
+csl: '../Bibliografia/jmp.csl'
+---
+
+\
+
+Motivações para a análise de dados[@pearson_eda]:
+
+1. compreender o que ocorreu ou está ocorrendo;
+1. prever o que pode ocorrer no futuro ou em condições ainda não observadas;
+1. guiar tomadas de decisões.
+
+Os dois últimos itens dessa lista são algumas das aplicações da chamada *modelagem estatística*. Por sua vez, amostras confiáveis e representativas da população em estudo são imprescindíveis para uma boa modelagem. Averiguar a qualidade dos dados é um dos objetivos da *Análise Exploratória de Dados*. 
+
+Segundo Pearson[@pearson_eda]:
+
+> Roughly speaking, exploratory data analysis (EDA) may be defined as the art of looking at one or more datasets in an effort to understand the underlying structure of the data contained there.
+
+## Referências
