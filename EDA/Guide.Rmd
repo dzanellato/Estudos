@@ -5,7 +5,7 @@ date: "2020-04-13"
 output: 
   bookdown::html_document2:
 #    base_format: prettydoc::html_pretty  
-    theme: readable
+    theme: default
 
 bibliography: '../Bibliografia/referencias.bib'
 csl: '../Bibliografia/jmp.csl'
@@ -16,10 +16,10 @@ body, td {
    font-size: 20px;
 }
 code.r{
-  font-size: 12px;
+  font-size: 18px;
 }
 pre {
-  font-size: 12px
+  font-size: 18px
 }
 </style>
 
