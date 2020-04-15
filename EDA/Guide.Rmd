@@ -9,19 +9,8 @@ output:
 
 bibliography: '../Bibliografia/referencias.bib'
 csl: '../Bibliografia/jmp.csl'
+css: '../Bibliografia/estilo.css'
 ---
-<style type="text/css">
-
-body, td {
-   font-size: 20px;
-}
-code.r{
-  font-size: 18px;
-}
-pre {
-  font-size: 18px
-}
-</style>
 
 
 \
@@ -42,20 +31,23 @@ Sendo assim, podemos dizer que os objetivos da análise exploratória são de pr
 
 **Estratégia geral**[@pearson_eda]:
 
+<div class=caixa>
 1. Determinar as características gerais do dataset, e.g.:
     a. Números de instâncias e de variáveis;
-    a. Nomes das variáveis (eles fazem sentido?)
+    a. Nomes das variáveis (eles fazem sentido?);
     a. Tipos de variáveis (nominais, contínuas etc.);
     a. Realizações possíveis de cada variável;
     a. Realizações mais frequentes e as suas respectivas frequências;
-    a. Número de observaçcões faltantes.
+    a. Número de observações faltantes.
 1. Estatística descritiva para cada variável (medidas de centralidade, dispersão etc.);
 1. Realizar visualiações exploratórias (gráficos de barra, histogramas etc.);
 1. Analisar e tratar possíveis anomalias: outliers, inliers, dados faltantes, inconsistências etc.; 
 1. Analisar relações entre as variáveis (análise bivariada, multivariada etc.);
 1. Resumir os resultados em um *data dictionary* que servirá para análises futuras e explicação dos resultados.  
+</div>
 
 Além disso, a formulação de perguntas e a busca pelas suas respostas, embasadas nos dados em análise, constituem um bom guia para a obtenção de informações relevantes.
+
 
 ---
 nocite: | 

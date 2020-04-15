@@ -254,6 +254,32 @@ h6 {
 }
 </style>
 
+<style type="text/css">body, td {
+font-size: 20px;
+text-align: justify;
+}
+code.r{
+font-size: 18px;
+}
+pre {
+font-size: 18px
+}
+.caixa {
+border: 1px solid black;
+background-color:rgb(238,238,238);
+border-style: none;
+border-radius: 5px;
+padding: 10px 10px 3px 5px;
+margin-bottom: 20px;
+}
+li {
+margin-bottom:20px;
+}
+li li {
+margin-bottom:10px;
+margin-top:10px;
+}
+</style>
 
 
 
@@ -368,18 +394,6 @@ summary {
 </div>
 
 
-<style type="text/css">
-
-body, td {
-   font-size: 20px;
-}
-code.r{
-  font-size: 18px;
-}
-pre {
-  font-size: 18px
-}
-</style>
 <p><br />
 </p>
 <p>Motivações para a análise de dados<span class="citation"><sup>1</sup></span>:</p>
@@ -395,22 +409,25 @@ pre {
 </blockquote>
 <p>Sendo assim, podemos dizer que os objetivos da análise exploratória são de preparação e obtenção de informações dos dados que serão posteriormente modelados e utilizados na inferência estatística.</p>
 <p><strong>Estratégia geral</strong><span class="citation"><sup>1</sup></span>:</p>
+<div class="caixa">
 <ol style="list-style-type: decimal">
 <li>Determinar as características gerais do dataset, e.g.:
 <ol style="list-style-type: lower-alpha">
 <li>Números de instâncias e de variáveis;</li>
-<li>Nomes das variáveis (eles fazem sentido?)</li>
+<li>Nomes das variáveis (eles fazem sentido?);</li>
 <li>Tipos de variáveis (nominais, contínuas etc.);</li>
 <li>Realizações possíveis de cada variável;</li>
 <li>Realizações mais frequentes e as suas respectivas frequências;</li>
-<li>Número de observaçcões faltantes.</li>
+<li>Número de observações faltantes.</li>
 </ol></li>
 <li>Estatística descritiva para cada variável (medidas de centralidade, dispersão etc.);</li>
 <li>Realizar visualiações exploratórias (gráficos de barra, histogramas etc.);</li>
 <li>Analisar e tratar possíveis anomalias: outliers, inliers, dados faltantes, inconsistências etc.;</li>
 <li>Analisar relações entre as variáveis (análise bivariada, multivariada etc.);</li>
-<li>Resumir os resultados em um <em>data dictionary</em> que servirá para análises futuras e explicação dos resultados.</li>
+<li>Resumir os resultados em um <em>data dictionary</em> que servirá para análises futuras e explicação dos resultados.<br />
+</li>
 </ol>
+</div>
 <p>Além disso, a formulação de perguntas e a busca pelas suas respostas, embasadas nos dados em análise, constituem um bom guia para a obtenção de informações relevantes.</p>
 <div id="referências" class="section level2 unnumbered">
 <h2>Referências</h2>
