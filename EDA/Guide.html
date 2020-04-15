@@ -269,11 +269,11 @@ border: 1px solid black;
 background-color:rgb(238,238,238);
 border-style: none;
 border-radius: 5px;
-padding: 10px 10px 3px 5px;
+padding: 11px 15px 1px 5px;
 margin-bottom: 20px;
 }
-li {
-margin-bottom:20px;
+li:not(:last-child) {
+margin-bottom:13px;
 }
 li li {
 margin-bottom:10px;
@@ -396,12 +396,14 @@ summary {
 
 <p><br />
 </p>
-<p>Motivações para a análise de dados<span class="citation"><sup>1</sup></span>:</p>
+<p><strong>Motivações para a análise de dados</strong><span class="citation"><sup>1</sup></span>:</p>
+<div class="caixa">
 <ol style="list-style-type: decimal">
 <li>compreender o que ocorreu ou está ocorrendo;</li>
 <li>prever o que pode ocorrer no futuro ou em condições ainda não observadas;</li>
 <li>guiar tomadas de decisões.</li>
 </ol>
+</div>
 <p>Dos três itens listados acima, os dois últimos são algumas das aplicações da chamada <em>modelagem estatística</em>. Por sua vez, é imprescindível à modelagem que as amostras utilizadas sejam <strong>confiáveis</strong> e <strong>representativas</strong> da população em análise. Averiguar a qualidade dos dados é um dos objetivos da <em>Análise Exploratória de Dados</em>.</p>
 <p>Segundo Pearson<span class="citation"><sup>1</sup></span>:</p>
 <blockquote>
@@ -431,6 +433,7 @@ summary {
 <p>Além disso, a formulação de perguntas e a busca pelas suas respostas, embasadas nos dados em análise, constituem um bom guia para a obtenção de informações relevantes.</p>
 <div id="referências" class="section level2 unnumbered">
 <h2>Referências</h2>
+<hr />
 <div id="refs" class="references">
 <div id="ref-pearson_eda">
 <p><sup>1</sup> R.K. Pearson, <em>Exploratory Data Analysis Using R</em> (CRC, 2018).</p>
